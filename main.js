@@ -17,9 +17,9 @@ const wordCounter = (value) => {
 }
 
 // OPTIONAL CHALLENGE
-const toggleMode = (btnText) => {
+const toggleMode = () => {
   // complete the function
-  btnText = "Light Mode"
+  
   document.body.classList.toggle("dark-mode");
   if (document.body.classList.contains("dark-mode")) {
     document.getElementById("bg-switch").innerHTML = "Light Mode";
